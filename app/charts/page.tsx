@@ -94,7 +94,7 @@ export default function TopCharts() {
                     className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
                   >
                     <div className="relative h-10 w-10 rounded-md overflow-hidden flex-shrink-0">
-                      <Image src={genre.image || "/placeholder.svg"} alt={genre.name} fill className="object-cover" />
+                      <Image src={genre.image || "/afr1.jpg"} alt={genre.name} fill className="object-cover" />
                     </div>
                     <div>
                       <h3 className="font-medium">{genre.name}</h3>
@@ -117,7 +117,7 @@ export default function TopCharts() {
                   >
                     <div className="relative h-10 w-10 rounded-full overflow-hidden flex-shrink-0">
                       <Image
-                        src={producer.avatar || "/placeholder.svg"}
+                        src={producer.avatar || "/afr2.jpg"}
                         alt={producer.name}
                         fill
                         className="object-cover"
@@ -141,7 +141,7 @@ export default function TopCharts() {
             {regionalCharts.map((region, index) => (
               <Link key={index} href={`/charts/${region.id}`} className="card overflow-hidden group h-64 relative">
                 <Image
-                  src={region.image || "/placeholder.svg"}
+                  src={region.image || "/afr4.jpg"}
                   alt={region.name}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -166,49 +166,49 @@ const trendingBeats = [
     producer: "BeatMaster",
     genre: "Afrobeat",
     duration: "3:24",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "/afr1.jpg",
   },
   {
     title: "Accra Groove",
     producer: "GhanaSound",
     genre: "Highlife",
     duration: "2:58",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "/afr2.jpg",
   },
   {
     title: "Nairobi Flow",
     producer: "KenyaBeats",
     genre: "Gengetone",
     duration: "3:05",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "/afr3.jpg",
   },
   {
     title: "Soweto Rhythm",
     producer: "SAProducer",
     genre: "Amapiano",
     duration: "4:12",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "/afr5.jpg",
   },
   {
     title: "Cairo Nights",
     producer: "EgyptBeats",
     genre: "Mahraganat",
     duration: "3:47",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "/afr7.jpg",
   },
   {
     title: "Abidjan Heat",
     producer: "IvoryCoast",
     genre: "Coupé-Décalé",
     duration: "3:30",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "/afr9.jpg",
   },
   {
     title: "Lagos to London",
     producer: "AfriqueBeats",
     genre: "Afro Fusion",
     duration: "3:15",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "/afr10.jpg",
   },
 ]
 
@@ -217,31 +217,31 @@ const topGenres = [
     id: "afrobeat",
     name: "Afrobeat",
     beatCount: 245,
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/afr1.jpg",
   },
   {
     id: "amapiano",
     name: "Amapiano",
     beatCount: 178,
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/afr2.jpg",
   },
   {
     id: "highlife",
     name: "Highlife",
     beatCount: 120,
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/afr3.jpg",
   },
   {
     id: "afro-house",
     name: "Afro House",
     beatCount: 156,
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/afr4.jpg",
   },
   {
     id: "dancehall",
     name: "Dancehall",
     beatCount: 187,
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/afr5.jpg",
   },
 ]
 
@@ -250,31 +250,31 @@ const topProducers = [
     id: "beatmaster",
     name: "BeatMaster",
     beatCount: 78,
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/afr5.jpg",
   },
   {
     id: "afriquebeats",
     name: "AfriqueBeats",
     beatCount: 65,
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/afr6.jpg",
   },
   {
     id: "ghanasound",
     name: "GhanaSound",
     beatCount: 54,
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/afr7.jpg",
   },
   {
     id: "kenyabeats",
     name: "KenyaBeats",
     beatCount: 47,
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/afr8.jpg",
   },
   {
     id: "saproducer",
     name: "SAProducer",
     beatCount: 42,
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/afr9.jpg",
   },
 ]
 
@@ -283,19 +283,19 @@ const regionalCharts = [
     id: "west-africa",
     name: "West Africa",
     description: "Nigeria, Ghana, Ivory Coast & more",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/afr10.jpg",
   },
   {
     id: "east-africa",
     name: "East Africa",
     description: "Kenya, Tanzania, Uganda & more",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/afr11.jpg",
   },
   {
     id: "southern-africa",
     name: "Southern Africa",
     description: "South Africa, Angola, Mozambique & more",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/afr12.jpg",
   },
 ]
 

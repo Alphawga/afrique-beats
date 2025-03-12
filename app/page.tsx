@@ -10,7 +10,7 @@ export default function Home() {
         <div className="absolute inset-0 -z-10">
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/40 z-10"></div>
           <Image
-            src="/placeholder.svg?height=1080&width=1920"
+            src="/afr4.jpg"
             alt="African musical performance"
             fill
             className="object-cover"
@@ -99,7 +99,7 @@ export default function Home() {
             <div className="md:w-1/2">
               <div className="relative h-96 w-full rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/placeholder.svg?height=800&width=600"
+                  src="/afr7.jpg"
                   alt="African music producer in studio"
                   fill
                   className="object-cover"
@@ -155,7 +155,7 @@ export default function Home() {
                 <div className="flex items-center gap-4 mb-4">
                   <div className="relative w-12 h-12 rounded-full overflow-hidden">
                     <Image
-                      src={testimonial.avatar || "/placeholder.svg"}
+                      src={testimonial.avatar || "/afr8.jpg"}
                       alt={testimonial.name}
                       fill
                       className="object-cover"
@@ -219,7 +219,7 @@ export default function Home() {
             <div className="md:w-1/2">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/10">
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/afr9.jpg"
                   alt="Analytics dashboard"
                   width={800}
                   height={600}
@@ -328,7 +328,7 @@ const featuredBeats = [
     duration: "0:31",
     genre: "Afrobeat, Dancehall",
     rating: 4.9,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/afr10.jpg",
   },
   {
     title: "Hot Shot",
@@ -336,7 +336,7 @@ const featuredBeats = [
     duration: "0:12",
     genre: "Hip-Hop, Urban",
     rating: 4.7,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/afr11.jpg",
   },
   {
     title: "Find Soul",
@@ -344,7 +344,7 @@ const featuredBeats = [
     duration: "0:08",
     genre: "Soul, RnB",
     rating: 4.8,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/afr12.jpg",
   },
   {
     title: "Deep Inside",
@@ -352,7 +352,7 @@ const featuredBeats = [
     duration: "0:11",
     genre: "House, Electronic",
     rating: 4.6,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/afr1.jpg",
   },
 ]
 
@@ -362,21 +362,21 @@ const testimonials = [
   {
     name: "David Okafor",
     role: "Music Producer",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/afr1.jpg",
     rating: 5,
     text: "AfriqueBeats has transformed my production workflow. The quality of beats and the analytics tools are game-changers!",
   },
   {
     name: "Amara Konte",
     role: "Recording Artist",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/afr2.jpg",
     rating: 5,
     text: "Finding authentic African sounds used to be a challenge until I discovered AfriqueBeats. Now I have access to premium quality beats that truly represent our culture.",
   },
   {
     name: "Kwame Mensah",
     role: "Sound Engineer",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/afr3.jpg",
     rating: 4,
     text: "The diversity of beats available on AfriqueBeats is impressive. From traditional rhythms to modern fusions, it's a treasure trove for any music professional.",
   },

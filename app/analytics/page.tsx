@@ -284,7 +284,7 @@ const topBeats = [
     plays: 8762,
     conversion: 14.2,
     rating: 4.8,
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/afr1.jpg",
   },
   {
     name: "Accra Groove",
@@ -293,7 +293,7 @@ const topBeats = [
     plays: 6543,
     conversion: 15.1,
     rating: 4.7,
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/afr2.jpg",
   },
   {
     name: "Soweto Rhythm",
@@ -302,7 +302,7 @@ const topBeats = [
     plays: 5421,
     conversion: 16.2,
     rating: 4.9,
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/afr3.jpg",
   },
   {
     name: "Tribal Fusion",
@@ -311,7 +311,7 @@ const topBeats = [
     plays: 4932,
     conversion: 15.1,
     rating: 4.6,
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/afr4.jpg",
   },
   {
     name: "Desert Rhythm",
@@ -320,7 +320,7 @@ const topBeats = [
     plays: 3845,
     conversion: 16.1,
     rating: 4.5,
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/afr5.jpg",
   },
 ]
 

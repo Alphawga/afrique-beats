@@ -83,7 +83,7 @@ export default function BrowseBeats() {
               <div key={index} className="card group">
                 <div className="relative aspect-square bg-gradient-to-br from-primary/60 to-accent/60 overflow-hidden">
                   <Image
-                    src={beat.image || "/placeholder.svg"}
+                    src={beat.image || "/afr1.jpg"}
                     alt={beat.title}
                     fill
                     className="object-cover opacity-80 group-hover:scale-110 transition-transform duration-500"
@@ -127,17 +127,17 @@ const collections = [
   {
     title: "Latest Afrobeats",
     count: 24,
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/afr1.jpg",
   },
   {
     title: "Amapiano Essentials",
     count: 18,
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/afr2.jpg",
   },
   {
     title: "Highlife Classics",
     count: 15,
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/afr3.jpg",
   },
 ]
 
@@ -147,56 +147,56 @@ const beats = [
     producer: "AfriqueBeats",
     price: "₦5,000",
     bpm: 105,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/afr4.jpg",
   },
   {
     title: "Sunset Groove",
     producer: "BeatMaster",
     price: "₦4,500",
     bpm: 98,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/afr5.jpg",
   },
   {
     title: "Desert Rhythm",
     producer: "SoundSage",
     price: "₦6,200",
     bpm: 110,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/afr6.jpg",
   },
   {
     title: "Urban Flow",
     producer: "CityBeats",
     price: "₦3,800",
     bpm: 120,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/afr7.jpg",
   },
   {
     title: "Tribal Fusion",
     producer: "AfriqueBeats",
     price: "₦5,500",
     bpm: 95,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/afr9.jpg",
   },
   {
     title: "Midnight Magic",
     producer: "NightOwl",
     price: "₦4,200",
     bpm: 102,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/afr9.jpg",
   },
   {
     title: "Savanna Dreams",
     producer: "WildRhythm",
     price: "₦4,800",
     bpm: 92,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/afr10.jpg",
   },
   {
     title: "Electric Djembe",
     producer: "FusionMaster",
     price: "₦5,300",
     bpm: 115,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/afr11.jpg",
   },
 ]
 
